@@ -1,0 +1,5 @@
+yucel_business@cloudshell:~ (yucelproject)$ gcloud compute instances create yucelfuat-instance \
+    --zone=europe-central2-a \
+    --image-family centos-7 \
+    --image-project centos-cloud \
+    --metadata-from-file startup-script=/home/yucel_business/script.sh
